@@ -951,7 +951,7 @@ IndxFKName=%REFR%_FK
 IndxThreshold=
 ColnFKName=%.3:PARENT%_%COLUMN%
 ColnFKNameUse=No</a:ModelOptionsText>
-<a:RepositoryFilename>C:\Users\Дмитрий\Desktop\HW_1.2.oom</a:RepositoryFilename>
+<a:RepositoryFilename>C:\Users\Дмитрий\Desktop\dz\HW_1.2.oom</a:RepositoryFilename>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
 <a:ObjectID>F797B62F-7A35-471B-943E-67174D6C0A5F</a:ObjectID>
@@ -2245,8 +2245,8 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 </o:VariableSymbol>
 <o:VariableSymbol Id="o62">
 <a:CreationDate>1506599668</a:CreationDate>
-<a:ModificationDate>1506613251</a:ModificationDate>
-<a:Rect>((10563,19074), (16463,22524))</a:Rect>
+<a:ModificationDate>1506614422</a:ModificationDate>
+<a:Rect>((8238,19224), (14138,22674))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>8421504</a:LineColor>
 <a:DashStyle>2</a:DashStyle>
