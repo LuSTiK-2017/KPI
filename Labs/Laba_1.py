@@ -1,6 +1,8 @@
-a = float(input("Введіть значення ребра куба: ")) # Запрошуємо користувача для введення значення ребра
+Merge branch 'master' of https://github.com/LuSTiK-2017/iamcoolprogrammer
 
-S = 4 * a ** 2 # Розраховуємо значення площі поверхні куба і присвоюємо це значення змінній S
-V = a ** 3 # Розраховуємо значення об'єму куба і присвоюємо це значення змінній V
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
 
-print("Площа поверхні куба -", S, "\n" + "Об'єм куба -", V) # Виводимо данні користувачеві
