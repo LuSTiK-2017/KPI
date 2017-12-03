@@ -1,0 +1,121 @@
+\hypertarget{namespacetask2}{}\section{task2 Namespace Reference}
+\label{namespacetask2}\index{task2@{task2}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacetask2_a6698f7ee88d947ca7895225fc6ed9aad}{convert} (nums, \hyperlink{namespacetask2_acffac0045062e2fa5bd88e9d7303e0e4}{count})
+\begin{DoxyCompactList}\small\item\em This function is converting elements of list in float type. \end{DoxyCompactList}\item 
+def \hyperlink{namespacetask2_aa94c3ce489fe794dd806b09fe421e570}{maximum} (nums, idx, carr\+Max)
+\begin{DoxyCompactList}\small\item\em This function is find max element in the list. \end{DoxyCompactList}\item 
+def \hyperlink{namespacetask2_a1003a8330a59d03e5b6bad23dbc3c2f8}{count\+\_\+max} (nums, \hyperlink{namespacetask2_a6be05602bf574a03f0308429ac474e97}{max\+\_\+num}, idx, \hyperlink{namespacetask2_acffac0045062e2fa5bd88e9d7303e0e4}{count})
+\begin{DoxyCompactList}\small\item\em This function is find numbers of max elements in the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacetask2_aee44793e4ddf40f20f98530ae0b2fa1c}{str\+\_\+numbers} = input(\char`\"{}Please, input numbers by space\+: \char`\"{}).split(\char`\"{} \char`\"{})
+\item 
+def \hyperlink{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}{float\+\_\+numbers} = \hyperlink{namespacetask2_a6698f7ee88d947ca7895225fc6ed9aad}{convert}(\hyperlink{namespacetask2_aee44793e4ddf40f20f98530ae0b2fa1c}{str\+\_\+numbers}, 0)
+\item 
+def \hyperlink{namespacetask2_a6be05602bf574a03f0308429ac474e97}{max\+\_\+num} = \hyperlink{namespacetask2_aa94c3ce489fe794dd806b09fe421e570}{maximum}(\hyperlink{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}{float\+\_\+numbers}, 0, \hyperlink{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}{float\+\_\+numbers}\mbox{[}0\mbox{]})
+\item 
+def \hyperlink{namespacetask2_acffac0045062e2fa5bd88e9d7303e0e4}{count} = \hyperlink{namespacetask2_a1003a8330a59d03e5b6bad23dbc3c2f8}{count\+\_\+max}(\hyperlink{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}{float\+\_\+numbers}, \hyperlink{namespacetask2_a6be05602bf574a03f0308429ac474e97}{max\+\_\+num}, 0, 0)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacetask2_a6698f7ee88d947ca7895225fc6ed9aad}\label{namespacetask2_a6698f7ee88d947ca7895225fc6ed9aad}} 
+\index{task2@{task2}!convert@{convert}}
+\index{convert@{convert}!task2@{task2}}
+\subsubsection{\texorpdfstring{convert()}{convert()}}
+{\footnotesize\ttfamily def task2.\+convert (\begin{DoxyParamCaption}\item[{}]{nums,  }\item[{}]{count }\end{DoxyParamCaption})}
+
+
+
+This function is converting elements of list in float type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nums} & list \\
+\hline
+{\em count} & integer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+convert list 
+\end{DoxyReturn}
+\begin{DoxyParagraph}{Examples}
+print(convert\+\_\+list(\mbox{[}\char`\"{}1\char`\"{}, \char`\"{}2\char`\"{}, \char`\"{}3\char`\"{}, \char`\"{}4\char`\"{}\mbox{]}, 0)) \mbox{[}1, 2, 3, 4\mbox{]} print(convert\+\_\+list(\mbox{[}\char`\"{}f\char`\"{}, \char`\"{}2\char`\"{}, \char`\"{}3\char`\"{}\mbox{]}, 0)) Traceback (most recent call last)\+: ... Value\+Error 
+\end{DoxyParagraph}
+\mbox{\Hypertarget{namespacetask2_a1003a8330a59d03e5b6bad23dbc3c2f8}\label{namespacetask2_a1003a8330a59d03e5b6bad23dbc3c2f8}} 
+\index{task2@{task2}!count\+\_\+max@{count\+\_\+max}}
+\index{count\+\_\+max@{count\+\_\+max}!task2@{task2}}
+\subsubsection{\texorpdfstring{count\+\_\+max()}{count\_max()}}
+{\footnotesize\ttfamily def task2.\+count\+\_\+max (\begin{DoxyParamCaption}\item[{}]{nums,  }\item[{}]{max\+\_\+num,  }\item[{}]{idx,  }\item[{}]{count }\end{DoxyParamCaption})}
+
+
+
+This function is find numbers of max elements in the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nums} & list \\
+\hline
+{\em max\+\_\+num} & float \\
+\hline
+{\em idx} & integer \\
+\hline
+{\em count} & integer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return numbers of max elements 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespacetask2_aa94c3ce489fe794dd806b09fe421e570}\label{namespacetask2_aa94c3ce489fe794dd806b09fe421e570}} 
+\index{task2@{task2}!maximum@{maximum}}
+\index{maximum@{maximum}!task2@{task2}}
+\subsubsection{\texorpdfstring{maximum()}{maximum()}}
+{\footnotesize\ttfamily def task2.\+maximum (\begin{DoxyParamCaption}\item[{}]{nums,  }\item[{}]{idx,  }\item[{}]{carr\+Max }\end{DoxyParamCaption})}
+
+
+
+This function is find max element in the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nums} & list \\
+\hline
+{\em idx} & integer \\
+\hline
+{\em carr\+Max} & float \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Max element from list 
+\end{DoxyReturn}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{namespacetask2_acffac0045062e2fa5bd88e9d7303e0e4}\label{namespacetask2_acffac0045062e2fa5bd88e9d7303e0e4}} 
+\index{task2@{task2}!count@{count}}
+\index{count@{count}!task2@{task2}}
+\subsubsection{\texorpdfstring{count}{count}}
+{\footnotesize\ttfamily def task2.\+count = \hyperlink{namespacetask2_a1003a8330a59d03e5b6bad23dbc3c2f8}{count\+\_\+max}(\hyperlink{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}{float\+\_\+numbers}, \hyperlink{namespacetask2_a6be05602bf574a03f0308429ac474e97}{max\+\_\+num}, 0, 0)}
+
+\mbox{\Hypertarget{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}\label{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}} 
+\index{task2@{task2}!float\+\_\+numbers@{float\+\_\+numbers}}
+\index{float\+\_\+numbers@{float\+\_\+numbers}!task2@{task2}}
+\subsubsection{\texorpdfstring{float\+\_\+numbers}{float\_numbers}}
+{\footnotesize\ttfamily def task2.\+float\+\_\+numbers = \hyperlink{namespacetask2_a6698f7ee88d947ca7895225fc6ed9aad}{convert}(\hyperlink{namespacetask2_aee44793e4ddf40f20f98530ae0b2fa1c}{str\+\_\+numbers}, 0)}
+
+\mbox{\Hypertarget{namespacetask2_a6be05602bf574a03f0308429ac474e97}\label{namespacetask2_a6be05602bf574a03f0308429ac474e97}} 
+\index{task2@{task2}!max\+\_\+num@{max\+\_\+num}}
+\index{max\+\_\+num@{max\+\_\+num}!task2@{task2}}
+\subsubsection{\texorpdfstring{max\+\_\+num}{max\_num}}
+{\footnotesize\ttfamily def task2.\+max\+\_\+num = \hyperlink{namespacetask2_aa94c3ce489fe794dd806b09fe421e570}{maximum}(\hyperlink{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}{float\+\_\+numbers}, 0, \hyperlink{namespacetask2_a4a4aea5068f8e25b43a1da9687dc3d67}{float\+\_\+numbers}\mbox{[}0\mbox{]})}
+
+\mbox{\Hypertarget{namespacetask2_aee44793e4ddf40f20f98530ae0b2fa1c}\label{namespacetask2_aee44793e4ddf40f20f98530ae0b2fa1c}} 
+\index{task2@{task2}!str\+\_\+numbers@{str\+\_\+numbers}}
+\index{str\+\_\+numbers@{str\+\_\+numbers}!task2@{task2}}
+\subsubsection{\texorpdfstring{str\+\_\+numbers}{str\_numbers}}
+{\footnotesize\ttfamily task2.\+str\+\_\+numbers = input(\char`\"{}Please, input numbers by space\+: \char`\"{}).split(\char`\"{} \char`\"{})}
+
