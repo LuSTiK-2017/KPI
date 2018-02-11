@@ -1,6 +1,7 @@
 from functools import wraps
 from time import time
 
+
 def repeat_func(continue_cmd):
     def decorator(func):
         @wraps(func)
@@ -13,6 +14,7 @@ def repeat_func(continue_cmd):
                 iscontinue = input(CONTINUE_MSG) == continue_cmd
         return wrapper
     return decorator
+
 
 def time_measure(func):
     @wraps(func)
